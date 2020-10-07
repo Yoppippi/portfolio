@@ -111,7 +111,9 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 86vh;
+  height: 83vh;
+  background-image: url("../img/36543.jpg");
+  background-size: cover;
 }
 
 .logo {
@@ -129,7 +131,7 @@ li {
 }
 
 .logo-subtitle {
-  font-size: 20px;
+  font-size: 25px;
   margin-top: 5px;
   text-align: center;
   letter-spacing: .2em;
@@ -223,17 +225,17 @@ li {
 }
 
 .works-title {
-  font-size: 12px;
+  font-size: 17px;
   font-weight: bold;
   margin-top: 8px;
 }
 
 .works-text {
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .works-url {
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .works-image.fadein {
@@ -286,7 +288,7 @@ li {
 }
 
 .about-image {
-  border-radius: 50%;
+  border-radius: 25%;
   box-shadow: 0 0 25px 0 #d9d9d9;
 }
 
@@ -296,6 +298,14 @@ li {
 
 .about-body p:not(:last-child) {
   margin-bottom: 20px;
+}
+
+.about-title {
+  font-size: 15px;
+}
+
+.fontsize-17 {
+  font-size: 18px;
 }
 
 /*--------------------------------
